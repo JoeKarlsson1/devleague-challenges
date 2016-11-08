@@ -1,0 +1,5 @@
+<title> $$title$$ </title>
+
+<h1> $$message$$ </h1>
+
+<p>My name is $$name$$, and this is my template engine.</p>

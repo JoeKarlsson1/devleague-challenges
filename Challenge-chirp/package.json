@@ -1,0 +1,15 @@
+{
+  "name": "Challeneg-chirp",
+  "version": "1.0.0",
+  "description": "- Create your own git repository for this exercise. - Commit often with meaningful commit messages.",
+  "main": "chirp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
