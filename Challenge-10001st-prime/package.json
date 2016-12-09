@@ -1,0 +1,28 @@
+{
+  "name": "Challenge-10001st-prime",
+  "version": "1.0.0",
+  "description": "Challenge 7 ===========",
+  "main": "challenge_7.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleague/Challenge-10001st-prime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleague/Challenge-10001st-prime/issues"
+  },
+  "homepage": "https://github.com/devleague/Challenge-10001st-prime#readme",
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.1.1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Challenge-Broken-Keyboard",
+  "version": "0.0.1",
+  "description": "My keyboard is broken, only a few keys work any more. If I tell you what keys work, can you tell me what words I can write? — Edit
+",
+  "main": "even_fib_nums.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devleague/Challenge-Broken-Keyboard"
+  },
+  "author": "Dev League LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devleague/Challenge-Broken-Keyboard/issues"
+  },
+  "homepage": "https://github.com/devleague/Challenge-Broken-Keyboard",
+  "dependencies": {
+  }
+}

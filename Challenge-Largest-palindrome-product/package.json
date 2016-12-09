@@ -1,0 +1,26 @@
+{
+  "name": "Challenge-Largest-palindrome-product",
+  "version": "0.0.1",
+  "description": "Challenge 4 ===========",
+  "main": "largest_palindrome_product.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec --bail --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devleague/Challenge-Largest-palindrome-product.git"
+  },
+  "author": "Dev League LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devleague/Challenge-Largest-palindrome-product/issues"
+  },
+  "homepage": "https://github.com/devleague/Challenge-Largest-palindrome-product",
+  "dependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5"
+  }
+}
