@@ -1,0 +1,24 @@
+{
+  "name": "shopping-list",
+  "version": "1.0.0",
+  "description": "Fork and clone this project.   Goal: Create a working, single page app.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasona/Behavior-Driven-Shopping-List.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasona/Behavior-Driven-Shopping-List/issues"
+  },
+  "homepage": "https://github.com/kasona/Behavior-Driven-Shopping-List#readme"
+}
