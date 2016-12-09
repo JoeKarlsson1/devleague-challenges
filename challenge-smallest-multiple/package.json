@@ -1,0 +1,23 @@
+{
+  "name": "Challenge-Smallest-multiple",
+  "version": "0.0.1",
+  "description": "Euler #005",
+  "main": "smallest_multiple.js",
+  "scripts": {
+    "test": "mocha -R spec --bail --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devleague/Challenge-Smallest-multiple.git"
+  },
+  "author": "Dev League LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devleague/Challenge-Smallest-multiple/issues"
+  },
+  "homepage": "https://github.com/devleague/Challenge-Smallest-multiple",
+  "dependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5"
+  }
+}
