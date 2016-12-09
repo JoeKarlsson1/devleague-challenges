@@ -1,0 +1,4 @@
+# haxe build file for src/HundredSpecs.hx
+-cp src
+-main HundredSpecs
+-js public/js/100-specs.js
