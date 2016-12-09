@@ -1,0 +1,9 @@
+extends ./../layout
+
+block content
+  h1 #{item.id}: #{item.name}
+  p Inventory: ##{item.inventory}
+  p Price: #{item.price}
+  h2
+    form(type="submit", action="/products/")
+      button(type="submit", value="submit") Product List

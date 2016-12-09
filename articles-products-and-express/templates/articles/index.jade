@@ -1,0 +1,17 @@
+extends ./../layout
+
+block content
+  ul
+    each articles in art
+      li Article Title:&nbsp
+        a(href="/articles/#{articles.title}") #{articles.title}&nbsp
+        form(type="submit", action="/articles/#{articles.title}/edit")
+          input(type="hidden", name="_method", value="PUT")
+          button(type="submit", value="submit") edit
+        form(name="delete-articles", method="POST", action="/articles/#{articles.title}")
+          input(type="hidden", name="_method", value="DELETE")
+          button(type="submit", value="submit") delete
+
+  a(href="/articles/new") New
+
+
