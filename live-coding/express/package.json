@@ -1,0 +1,16 @@
+{
+  "name": "lecture-express",
+  "version": "1.0.0",
+  "description": "EXPRESS DEMO",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Joe <joe@callmejoe.net>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {}
+}

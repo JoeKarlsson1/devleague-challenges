@@ -1,0 +1,24 @@
+div#family1, div#family2 {
+    background-color: blue;
+    width: 100%;
+    height: 150px;
+}
+
+div.child {
+    margin-top: 5px;
+    height: 30px;
+    background-color: red;
+}
+
+div.child h2.name,
+div.child p.secret-toy {
+    display: inline;
+}
+
+div.child p.secret-toy {
+    display: none; /* initial state */
+}
+
+div.child p.secret-toy.show {
+    display: inline
+}

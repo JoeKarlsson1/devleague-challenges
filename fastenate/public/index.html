@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fastenate | The World's Most Awesome Board of Stuff</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="./js/modernizr.js"></script>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <!-- Header Section -->
+    <header class="logo">
+      <div class="row">
+          <div class="small-3 small-uncentered medium-centered columns">
+            <div class="container">
+              <img class="logo-image1" src="assets/logo.svg">
+              <div class="show-for-large-up"> <img class="logo-image2" src="assets/header_bg.svg"></div>
+            </div>
+          </div>
+      </div>
+    </header>
+
+
+    <nav class="top-bar" data-topbar role="navigation">
+     <section class="top-bar-section">
+       <ul class="right">
+         <li>
+           <a href="#" class="button" onclick="loadBoard('random')">RANDOM</a>
+         </li>
+         <li>&middot;</li>
+         <li>
+           <a href="#" class="button" onclick="loadBoard('my_boards')">MY BOARDS</a>
+         </li>
+         <li>&middot;</li>
+         <li>
+           <a href="#" class="button" onclick="loadBoard('get_the_app')">GET THE APP</a>
+         </li>
+        </ul>
+        <ul class="left">
+        </ul>
+      </section>
+    </nav>
+
+    <!-- Content Blocks -->
+    <div class="feed" id="feed">
+
+    </div> <!-- Feed -->
+
+    <footer class="site-footer">
+      <div class="row">
+        <div class="small-3 small-centered columns">
+          <ul>
+            <li><a href="#"><img src='assets/facebook_grey.svg'/></a></li>
+            <li>
+              <a href="#">
+                <span class="container">
+                  <span class="visible"><img src="assets/instagram_grey.svg"></span>
+                  <span class="hidden"><img src="assets/instagram_orange.svg"></span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>  <!-- page-wrap-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="./js/fastclick.js"></script>
+  <script src="./js/foundation.min.js"></script>
+  <script src="./js/app.js"></script>
+
+  <script>
+    $(document).foundation();
+  </script>
+
+</body>
+</html>

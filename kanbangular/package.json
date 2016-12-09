@@ -1,0 +1,39 @@
+{
+  "name": "kanbangular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corinajacobson/kanbangular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corinajacobson/kanbangular/issues"
+  },
+  "homepage": "https://github.com/corinajacobson/kanbangular#readme",
+  "dependencies": {
+    "angular-moment": "^0.10.3",
+    "angular-xeditable": "0.0.1",
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "moment": "^2.11.2",
+    "pg": "^4.4.4",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.19.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^2.3.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.2.0"
+  }
+}

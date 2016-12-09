@@ -1,0 +1,10 @@
+body {
+        background-color: pink;
+    }
+
+    #wrapper {
+        width: auto;
+        margin: auto;
+        text-align: center;
+        background-color: green;
+    }

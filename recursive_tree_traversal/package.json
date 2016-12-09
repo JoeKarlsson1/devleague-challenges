@@ -1,0 +1,22 @@
+{
+  "name": "recursive_tree_traversal",
+  "version": "0.0.1",
+  "description": "an exploration in tree traversal using recursion",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^1.9.1",
+    "gulp": "^3.8.8",
+    "gulp-mocha": "^1.1.0",
+    "gulp-util": "^3.0.1",
+    "gulp-watch": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "rayrfarias@gmail.com",
+  "license": "ISC"
+}

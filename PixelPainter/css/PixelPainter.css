@@ -1,0 +1,49 @@
+body {
+    margin: 10%;
+}
+/*
+Grid
+ */
+.grid {
+    border-collapse:collapse;
+    float: right;
+}
+.grid td {
+    cursor:pointer;
+    width:30px; height:30px;
+    border:1px solid #ccc;
+    text-align:center;
+    font-family:sans-serif; font-size:13px
+}
+.grid td.clickedGrid {
+    font-weight:bold; color:red;
+}
+
+/*
+Swatch
+ */
+.swatch {
+    border-collapse:collapse;
+    float: left;
+}
+.swatch td {
+    cursor:pointer;
+    width:30px; height:30px;
+    border:1px solid #ccc;
+    text-align:center;
+    font-family:sans-serif; font-size:13px
+}
+.swatch td.clickedColor {
+    border: 3px solid black;
+}
+
+.erase {
+    margin-top: 40%;
+    position:relative;
+    float: bottom;
+}
+
+.clearAll {
+    margin-top: 5%;
+    float: bottom left;
+}

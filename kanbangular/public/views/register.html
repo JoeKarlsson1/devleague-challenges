@@ -1,0 +1,31 @@
+<div>
+  <h2>Register New Account</h2>
+  <form ng-submit="signUp(register); register=null; deleteMessage()" class="auth">
+    <fieldset class="login-register">
+     <div class="register_username">
+       <label for="register_username">Username</label>
+       <input id="register_username" type="text" ng-model="register.username" autofocus required>
+     </div>
+     <div class="register_password">
+       <label for="register_password">Password</label>
+       <input id="register_password" type="password" ng-model="register.password" required>
+     </div>
+     <div class="register_email">
+       <label for="register_email">Email</label>
+       <input id="register_email" type="email" ng-model="register.email" required>
+     </div>
+     <div class="register_firstName">
+       <label for="register_firstName">First Name </label>
+       <input id="register_firstName" type="text" ng-model="register.firstName" required>
+     </div>
+     <div class="register_lastName">
+       <label for="register_lastName">Last Name </label>
+       <input id="register_lastName" type="text" ng-model="register.lastName" required>
+     </div>
+     <div class="status-message">{{registerMessage}}</div>
+     <div class="commit">
+       <button type="submit">Sign Up</button>
+     </div>
+    </fieldset>
+  </form>
+</div>

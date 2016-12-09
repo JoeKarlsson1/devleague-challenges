@@ -1,0 +1,129 @@
+/* -- FOUNDATION -- */
+@import 'partials/settings';
+
+@import 'foundation/components/grid';
+@import 'foundation/components/visibility';
+@import 'foundation/components/type';
+@import 'foundation/components/forms';
+@import 'foundation/components/sub-nav';
+@import 'foundation/components/alert-boxes';
+
+$headerMargin: 5% auto;
+$smallMargin: 3%;
+$standardMargin: 5%;
+$border-color: #ccc;
+$dark: #bbb;
+$light: #999;
+$lighter: #777;
+
+html{
+  font-size: 14px;
+}
+
+body {
+  background-image: url('./../img/snow.png');
+}
+
+h1{
+  color: $lighter;
+}
+
+img{
+  box-shadow: none;
+  opacity: 1;
+  &:hover{
+    opacity: .95;
+  }
+}
+
+.header-container{
+  margin: $headerMargin;
+  @media #{$medium-up}{
+    border-top: 1px dashed $border-color;
+  };
+}
+
+.header-info{
+  margin: 3% 0 auto 5%;
+  font-size: .9rem;
+  color: $light;
+  border-left: 1px dashed $border-color;
+}
+
+.header-title{
+  margin: 3% auto;
+  font-size: 5rem;
+  font-weight: bold;
+  @media #{$small-only}{
+    font-size: 4.5rem;
+    margin: $smallMargin;
+  }
+}
+
+.spacer{
+  margin: $smallMargin;
+  border-top: 1px dashed $border-color;
+}
+
+.image-listings{
+  @media #{$medium-up}{
+    min-height: 17em;
+    max-height: 17em;
+    min-width: 100%;
+  }
+}
+
+.image-container{
+  @media #{$small-only}{
+    margin: $smallMargin;
+  }
+}
+
+.image-info{
+  margin-top: $standardMargin;
+  font-size: .9rem;
+  color: $light;
+}
+
+.end-listing{
+  margin-bottom: $standardMargin;
+}
+
+.single-detail{
+  @media #{$small-only}{
+    margin-left: $standardMargin;
+    margin-right: $standardMargin;
+  }
+}
+
+.single-info{
+  margin: 2% 2% 2% 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: $dark;
+}
+
+.single-details{
+  margin-top: $standardMargin;
+  font-size: .9rem;
+  color: $lighter;
+}
+
+.edit-info{
+  margin-top: $standardMargin;
+}
+
+.edit-button{
+  margin-top: $standardMargin;
+}
+
+.sidebar-info{
+  margin-top: $standardMargin;
+  font-size: .9rem;
+  font-weight: bold;
+  color: $dark;
+}
+
+.sidebar-container{
+  margin: $smallMargin;
+}

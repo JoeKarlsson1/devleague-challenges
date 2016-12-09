@@ -1,0 +1,30 @@
+{
+  "TEST": {
+    "SERVER": {
+      "PORT": 9786
+    },
+    "DATABASE": {
+      "URL": "mongodb://localhost/DATABASE_NAME_GOES_HERE"
+    },
+    "SENDGRID": {
+      "API_KEY": "SENDGRID_API_KEY_GOES_HERE",
+      "TEMPLATES" : {
+        "ENROLLMENT_ID": "ENROLLMENT_ID_GOES_HERE"
+      }
+    }
+  },
+  "DEVELOPMENT": {
+    "SERVER": {
+      "PORT": 9393
+    },
+    "DATABASE": {
+      "URL": "mongodb://localhost/DATABASE_NAME_GOES_HERE"
+    },
+    "SENDGRID": {
+      "API_KEY": "SENDGRID_API_KEY_GOES_HERE",
+      "TEMPLATES" : {
+        "ENROLLMENT_ID": "ENROLLMENT_ID_GOES_HERE"
+      }
+    }
+  }
+}

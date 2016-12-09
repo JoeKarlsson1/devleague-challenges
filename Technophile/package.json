@@ -1,0 +1,23 @@
+{
+  "name": "technophile",
+  "version": "1.0.0",
+  "description": "JS Exercise on Multiple Inheritence",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleague/Technophile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleague/Technophile/issues"
+  },
+  "homepage": "https://github.com/devleague/Technophile#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}

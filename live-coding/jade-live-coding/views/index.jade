@@ -1,0 +1,33 @@
+extends ./layout.jade
+include ./mixins.jade
+
+block title
+  title Jade Practice
+
+block content
+  - var user = {name: 'Joe'}
+  - var authorized = true
+
+  if !authorized
+    p Please log in
+  else
+    h1(id = 'header', randomPhrase = 'catbuttz')
+      Hello #{userName}
+    div
+      |Your email is: #{email}
+      p
+        |Secret Message
+      a(href='#')
+        |Test lnk
+    button#xhrButton
+    div#requestTest
+
+    ul
+      +pet()
+
+    script(type="text/javascript", src='./client.js')
+
+mixin pet()
+  -var pets = ['cat', 'dog', 'squirrel'];
+  each pet in "#{userNames}"
+    li(id=pet)=pet

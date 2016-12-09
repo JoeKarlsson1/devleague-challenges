@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kanbangular</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"></script> <!-- load angular -->
+  <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angular-xeditable/0.1.8/css/xeditable.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body ng-app="app" ng-controller='UserController' ng-cloak>
+  <div id="nav">
+    <div class="header-container">
+      <h1 ng-cloak>{{ "Kanbangular" }}</h1>
+    </div>
+    <div class="navLinks-container">
+      <ul>
+        <li ng-hide="isLoggedIn()"><a ng-href='/' ng-click='deleteMessage()'>Home</a></li>
+        <li ng-hide="isLoggedIn()"><a ng-href='/login' ng-click='deleteMessage()'>Log In</a></li>
+        <li ng-hide="isLoggedIn()"><a ng-href='/register' ng-click='deleteMessage()'>Register</a></li>
+        <li ng-show="isLoggedIn()"><a ng-href='/logout' ng-click='logout(); deleteMessage()'>Log Out</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="mobileLinks-container">
+    <ul>
+      <li ng-show="isLoggedIn()"><a ng-href='/' ng-click='mobileShowHideNewTask()'>New Task</a></li>
+      <li ng-hide="isLoggedIn()"><a ng-href='/' ng-click='deleteMessage()'>Home</a></li>
+             <li ng-hide="isLoggedIn()"><a ng-href='/login' ng-click='deleteMessage()'>Log In</a></li>
+             <li ng-hide="isLoggedIn()"><a ng-href='/register' ng-click='deleteMessage()'>Register</a></li>
+             <li ng-show="isLoggedIn()"><a ng-href='/logout' ng-click='logout(); deleteMessage()'>Log Out</a></li>
+    </ul>
+  </div>
+  <div ng-view>
+
+  </div> <!-- // end div ng-view -->
+  <div id="footer"></div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-route.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-xeditable/0.1.8/js/xeditable.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-animate.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.1.2/ui-bootstrap-tpls.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/0.10.3/angular-moment.min.js"></script>
+  <script type="text/javascript" src="./js/app.js"></script>
+  <script type="text/javascript" src="./js/controllers/task-controllers.js"></script>
+  <script type="text/javascript" src="./js/controllers/user-controllers.js"></script>
+  <script type="text/javascript" src="./js/controllers/nav-controllers.js"></script>
+  <script type="text/javascript" src="./js/services.js"></script>
+
+</body>
+</html>

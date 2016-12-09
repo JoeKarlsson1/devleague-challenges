@@ -1,0 +1,42 @@
+{
+  "name": "kingdom-of-oop",
+  "description": "OOP Exercise",
+  "version": "0.1.0",
+  "homepage": "http://devleague.com",
+  "bugs": "https://github.com/DevLeague/kingdom-of-oop/issues",
+  "license": "MIT",
+  "main": "example/index.js",
+  "author": {
+    "name": "Dev League",
+    "email": "jon@gomagames.com",
+    "url": "http://devleague.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevLeague/kingdom-of-oop"
+  },
+  "keywords": [],
+  "dependencies": {
+    "debug": "2.2.0"
+  },
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "babel-core": "^5.4.7",
+    "coveralls": "^2.11.1",
+    "gulp": "^3.8.8",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-jscs": "^1.1.2",
+    "gulp-jshint": "^1.8.4",
+    "gulp-load-plugins": "^0.6.0",
+    "gulp-mocha": "^1.1.0",
+    "gulp-plumber": "^0.6.5",
+    "gulp-sourcemaps": "^1.5.2",
+    "jshint-stylish": "^0.4.0",
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "gulp test"
+  }
+}

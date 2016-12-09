@@ -1,0 +1,10 @@
+extends ./layouts/mainLayout
+include ./mixins/generateSingle
+
+block content
+  .row
+    .large-12.columns
+      +generateSingle(detail)
+    .large-12.columns.edit-info
+      include ./partials/_editForm
+      include ./partials/_deleteForm

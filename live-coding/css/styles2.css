@@ -1,0 +1,32 @@
+body{
+    font-size: 12px;
+}
+
+div{
+   border: solid 1px #fff;
+}
+
+#main-title{
+    border: solid 2px #bebebe;
+}
+
+span{
+    font-size: 14px;
+}
+
+a:hover {
+  background-color: pink;
+}
+
+ul li:first-child {
+    color: blue;
+}
+
+.waterfall ul > li span{
+    font-size: 10px;
+    background-color: purple;
+}
+
+#first_li {
+  background-color: blue !important;
+}

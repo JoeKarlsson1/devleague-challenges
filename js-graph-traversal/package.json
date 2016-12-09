@@ -1,0 +1,24 @@
+{
+  "name": "js-graph-traversal",
+  "version": "1.0.0",
+  "description": "An exercise in traversing graphs in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --bail --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleague/js-graph-traversal.git"
+  },
+  "keywords": [],
+  "author": "Joe <joe@callmejoe.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devleague/js-graph-traversal/issues"
+  },
+  "homepage": "https://github.com/devleague/js-graph-traversal#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}

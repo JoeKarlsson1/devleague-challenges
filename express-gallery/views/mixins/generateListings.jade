@@ -1,0 +1,7 @@
+mixin generateListings(listings)
+  .row
+    each array in listings
+      .small-12.columns
+        .spacer
+      each listing in array
+        include ./../partials/_listing

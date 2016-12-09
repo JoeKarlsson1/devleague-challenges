@@ -1,0 +1,15 @@
+extends ./layouts/mainLayout
+
+block content
+    form(action="/gallery" method="POST")
+      .row
+        .large-12.columns
+          label Picture URL
+            input(type="text" name="url" placeholder="...")
+          label Short Description
+            input(type="text" name="shortDesc" placeholder="...")
+          label Official Link
+            input(type="text" name="link" placeholder="...")
+          label Long Description
+            textarea(type="text" name="longDesc" placeholder="...")
+            button POST

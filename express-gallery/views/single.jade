@@ -1,0 +1,19 @@
+extends ./layouts/mainLayout
+include ./mixins/generateSidebar
+include ./mixins/generateSingle
+
+block content
+  if user
+    include ./partials/_postnav
+  else
+    include ./partials/_loginNav
+  .row
+    .medium-8.columns
+      +generateSingle(detail)
+      if user
+        a(href="/gallery/"+ id +"/edit")
+          button.edit-button.button.radius EDIT
+    .medium-4.columns
+      +generateSidebar(listings)
+    .large-12.columns
+      .spacer

@@ -1,0 +1,30 @@
+{
+  "TEST": {
+    "SERVER": {
+      "PORT": 9786
+    },
+    "DATABASE": {
+      "URL": "mongodb://localhost/enrollment_form_test"
+    },
+    "SENDGRID": {
+      "API_KEY": "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",
+      "TEMPLATES" : {
+        "ENROLLMENT_ID": "2868c1de-2109-4ad0-ad64-2eaec62c038e"
+      }
+    }
+  },
+  "DEVELOPMENT": {
+    "SERVER": {
+      "PORT": 9393
+    },
+    "DATABASE": {
+      "URL": "mongodb://localhost/enrollment_form_dev"
+    },
+    "SENDGRID": {
+      "API_KEY": "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",
+      "TEMPLATES" : {
+        "ENROLLMENT_ID": "2868c1de-2109-4ad0-ad64-2eaec62c038e"
+      }
+    }
+  }
+}
