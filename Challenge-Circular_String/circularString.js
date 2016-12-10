@@ -9,9 +9,9 @@ const circularString = ( source, find ) => {
   }
   let sourceCirc = source;
 
-  // If the find string is larger than the source - we need toi increase the number of times we loop source.
+  // If the find string is larger than the source - we need to increase the number of times we loop source.
   const numCircles = Math.ceil( find.length / source.length ) + 1;
-  // Beef up the cicrular string to handle any strong size.
+  // Beef up the cicrular string to handle any string size.
   for ( let i = 0; i <= numCircles; i++ ) {
     sourceCirc += source
   }
