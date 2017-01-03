@@ -1,29 +1,37 @@
-var canFly = function() {
-  this.price = 9.99;
-  this.takeOff = function() {
-    //fly baby
-    console.log('You are now flying');
-  };
-  return this;
-};
-
-var isSubmersible = function() {
-  this.oxygenTanks = 4;
-  this.dive = function() {
-      //go deep
-    };
-  return this;
+function extend(destination, source) {
+  // for...in loops iterate through keys in an object
+  for (var k in source) {
+    if (source.hasOwnProperty(k)) {
+      destination[k] = source[k];
+    }
+  }
+  return destination;
 }
 
-var Car = function(opts) {
-  this.wheels = 4;
-  if (opts.fly) {
-    canFly.call(Car.prototype);
-  }
-  if (opts.swim) {
-    isSubmersible.call(Car.prototype);
-  }
+function Beans () {
+  this.spiceLevel = 100;
+};
+Beans.prototype.cook = function() {
+  console.log('Cooking...');
 };
 
-var flyingSubmaringCar = new Car({ fly : true, swim : true });
-// console.log(flyingSubmaringCar);
+function Guacamole () {};
+Guacamole.prototype.spread = function() {
+  console.log('Spreading...');
+};
+
+function Taco () {
+
+  // Attaches properties from beans to taco
+  Beans.call(this);
+};
+Taco.prototype.eat = function() {
+  console.log('Eating ...');
+};
+
+// Attach methods from parent/source class to the child/destination class
+extend(Taco.prototype, Beans.prototype);
+extend(Taco.prototype, Guacamole.prototype);
+
+let tastyTaco = new Taco();
+console.log(tastyTaco.spread());

@@ -20,18 +20,24 @@ function linkedListGenerator() {
     return _tail;
   }
 
-  //takes a new node and adds it to our linked list
-  function _add( value ) {
-    const newNode = {
+  function _newNode( value) {
+    return {
       value,
       next: null,
     }
-    if(!_head){
-      _head = newNode;
+  }
+
+  //takes a new node and adds it to our linked list
+  function _add( value ) {
+    const newNode = _newNode( value );
+
+    if ( _getHead() === null ) {
+      _head  = newNode;
     } else {
-      _tail.next = newNode;
+      _getTail().next = newNode;
     }
     _tail = newNode;
+
     return newNode;
   }
 
@@ -41,20 +47,18 @@ function linkedListGenerator() {
    * @return {[type]}       [description]
    */
   function _get( index ) {
-    let currNode = _head;
-    let currPosition = 0;
-
-    // if index is less than zero - than return false
+    let currNode = _getHead();
+    let position = 0;
     if ( index < 0 ) {
       return false;
     }
 
-    while( currPosition < index ) {
-      if ( currNode.next === null) {
+    while ( position < index ) {
+      if (currNode.next === null ) {
         return false;
       }
       currNode = currNode.next;
-      currPosition++;
+      position++;
     }
     return currNode;
   }
@@ -65,36 +69,32 @@ function linkedListGenerator() {
    * @return {[type]}       [description]
    */
   function _remove( index ) {
-    let currNode = _get(index);
-    let prevNode = _get(index-1);
+    let currNode = _get( index );
+    let prevNode = _get( index -1 );
+    let nextNode = currNode.next;
 
-    // If currNode is not in the linked List - return false
-    if (currNode === false) {
+    // if the index is not in th LL
+    if ( currNode === false ) {
       return false;
     }
 
-    // If index is the tail - reassign the tail to prevNode
-    if ( currNode.next === null) {
+    // removing the tail
+    if ( nextNode === null ) {
       _tail = prevNode;
     }
 
-    // If removing the head
-    if( index === 0 ) {
-
-      // If the tail and the head are the same - assign head and tail to null
-      if( currNode.next === null) {
+    // If we are removing the head
+    if ( index === 0 ) {
+      // check if the head and the tail are the same node
+      if (currNode.next === null ) {
         _head = null;
         _tail = null;
-      } else {
-
-        // Case where removing head with a LL with more than one item
-        _head = _head.next;
       }
+      _head = nextNode;
     }
 
-    // Happy path - assign prev.net to currNode.next
-    // Deletes the node at index
-    prevNode.next = currNode.next;
+    // Happy path
+    prevNode.next = nextNode;
   };
 
   /**
@@ -104,32 +104,25 @@ function linkedListGenerator() {
    * @return {[type]}       [description]
    */
   function _insert( value, index ) {
-    let currNode = _get(index);
-    let prevNode = _get(index-1);
-    let newNode = {
-      value,
-      next: null
-    };
+    let currNode = _get( index );
+    let prevNode = _get( index -1 );
+    const newNode = _newNode( value );
 
-    // if inserting at an index greater than the length of the LL
-    if (currNode){
-      console.log('currNode: ', currNode);
-      // if inserting at the head
-      if(index === 0){
-        newNode.next = _head;
-        _head = newNode;
-      } else {
-        prevNode.next = newNode;
-        newNode.next = currNode;
-      }
-
-      // if inserting at the tail
-      if(currNode.next === null){
-        _add(value);
-      }
-
-    } else {
+    if ( currNode === false ){
       return false;
+    }
+
+    // if inserting at the head
+    if ( index === 0 ) {
+      newNode.next = currNode;
+      _head = newNode;
+    } else if ( currNode.next === null ) {
+      prevNode.next = newNode;
+      newNode.next = currNode;
+      _tail = newNode;
+    } else {
+      prevNode.next = newNode;
+      newNode.next = currNode;
     }
   }
 

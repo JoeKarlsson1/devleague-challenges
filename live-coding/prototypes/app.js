@@ -1,39 +1,24 @@
 //Constructor logic to set object properties, NOT prototype properties
 function Song(){
-  // this.play = function() {
-  //   return 'Hi-jacked';
-  // }
+  this.title = 'Hello Sun'
+  this.volume = 6;
 }
 
 Song.prototype.play = function() {
-  return 'playing';
+    return 'playing';
 }
 
-var song = new Song(); //invoked as constructor
-// console.log('song.play: ', song.play()); //hi-jacked
-
-function MetalSong(title, length){
-  this.title = title
-  this.length = length
-  this.volume = 11;
+function MetalSong(vol){
+    //like ES6 super call - attaches parent properties to this constrcutor
+    Song.call(this);
+    this.volume = vol;
 }
 
-MetalSong.prototype = Object.create(Song.prototype);
+// extend the song prototype
+MetalSong.prototype = Object.create(Song.prototype, {
+  constructor : MetalSong
+});
 
-let theBloodRunsRedMurderTown = new MetalSong('the Blood Runs Red Murder Town');
+var reignInBlood = new MetalSong(12);
 
-console.log(theBloodRunsRedMurderTown.play()); //playing
-
-function DeathMetalSong(title, length) {
-  MetalSong.call(this, title, length)
-  this.volume = Infinity;
-}
-
-DeathMetalSong.prototype = Object.create(MetalSong.prototype);
-
-var rainInBlood = new DeathMetalSong('rain In Blood', 4);
-console.log('rainInBlood.volume: ', rainInBlood.volume);
-
-Array.prototype.forEach = function() {
-
-}
+console.log(reignInBlood.title);

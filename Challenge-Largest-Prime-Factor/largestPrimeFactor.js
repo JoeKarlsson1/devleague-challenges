@@ -13,7 +13,7 @@ The number 12.
 We start with the smallest prime number (2).
 12/2 = 6, which means that 2 is a prime factor to 12.
 We try again to divide the remainder with 2 again:
-6/2 = 3. Three is a prime number as well, so we now have the complete factorization which is`
+7/2 = 3. Three is a prime number as well, so we now have the complete factorization which is`
 Prime factorization of 12 is 2,2,3 and we can check that 2*2*3=12.
 
 
