@@ -3,8 +3,11 @@ var exphbs  = require('express-handlebars');
 
 var app = express();
 
-app.engine('handlebars', exphbs({defaultLayout: 'main'}));
-app.set('view engine', 'handlebars');
+app.engine('.hbs', exphbs({
+  extname: '.hbs',
+  defaultLayout: 'main',
+}));
+app.set('view engine', '.hbs');
 
 app.get('/', (req, res) => {
     res.render('home', {
