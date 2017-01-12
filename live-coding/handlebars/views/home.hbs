@@ -1,0 +1,22 @@
+<h1>Example App: Home</h1>
+
+<h3>Welcome {{username}}</h3>
+
+<!-- Uses built-in `if` helper. -->
+{{#if isAdmin}}
+  <h2>Hello Admin</h2>
+{{/if}}
+
+<!-- Uses built-in `each` helper. -->
+<h3>Users</h3>
+{{#each people}}
+  <ul>
+    <li>{{this}}</li>
+  </ul>
+{{/each}}
+
+<!-- Calls `foo` helper -->
+<p>{{foo}}</p>
+
+<!-- Calls `userPartial` helper -->
+{{> userPartial }}
