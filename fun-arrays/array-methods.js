@@ -148,51 +148,92 @@ var sumOfHighInterests = Object.keys(stateSums)
 
 sumOfHighInterests = Math.round( sumOfHighInterests * 100) / 100;
 
-console.log(sumOfHighInterests);
-
 /*
   set lowerSumStates to an array containing
   only the two letter state abbreviation of each state
   where the sum of amounts in the state is
     less than 1,000,000
  */
-var lowerSumStates = null;
+ var lowerSumStates = Object.keys(stateSums).filter( state => {
+   if(stateSums[state] < 1000000) {
+     return state;
+   }
+ })
 
-/*
-  set higherStateSums to be the sum of
-    all amounts of every state
-    where the sum of amounts in the state is
-      greater than 1,000,000
- */
-var higherStateSums = null;
+ /*
+   set higherStateSums to be the sum of
+     all amounts of every state
+     where the sum of amounts in the state is
+       greater than 1,000,000
+  */
+ var higherStateSums = Object.keys(stateSums).reduce( (prev, curr) => {
+   if(stateSums[curr] > 1000000) {
+     prev += stateSums[curr];
+   }
+   return prev
+ }, 0);
 
-/*
-  set areStatesInHigherStateSum to be true if
-    all of these states have a sum of account values
-      greater than 2,550,000
-    Wisconsin
-    Illinois
-    Wyoming
-    Ohio
-    Georgia
-    Delaware
-  false otherwise
- */
-var areStatesInHigherStateSum = null;
+ /*
+   set areStatesInHigherStateSum to be true if
+     all of these states have a sum of account values
+       greater than 2,550,000
+     Wisconsin
+     Illinois
+     Wyoming
+     Ohio
+     Georgia
+     Delaware
+   false otherwise
+  */
+ var areStatesInHigherStateSum = Object.keys(stateSums).filter( state => {
+   return stateSums[state] > 2550000;
+ }).map( state => {
+   switch(state) {
+     case 'WI':
+     case 'IL':
+     case 'WY':
+     case 'OH':
+     case 'GA':
+     case 'DE':
+     return true;
+     default:
+     return false;
+   }
+ }).every( bool => {
+   return bool === true;
+ })
 
-/*
-  set anyStatesInHigherStateSum to be true if
-    any of these states have a sum of account values
-      greater than 2,550,000
-    Wisconsin
-    Illinois
-    Wyoming
-    Ohio
-    Georgia
-    Delaware
-  false otherwise
- */
-var anyStatesInHigherStateSum = null;
+
+ /*
+   Stretch Goal && Final Boss
+   set anyStatesInHigherStateSum to be true if
+     any of these states have a sum of account values
+       greater than 2,550,000
+     Wisconsin
+     Illinois
+     Wyoming
+     Ohio
+     Georgia
+     Delaware
+   false otherwise
+  */
+ var anyStatesInHigherStateSum = Object.keys(stateSums).filter( state => {
+   return stateSums[state] > 2550000;
+ }).map( state => {
+   switch(state) {
+     case 'WI':
+     case 'IL':
+     case 'WY':
+     case 'OH':
+     case 'GA':
+     case 'DE':
+     return true;
+     default:
+     return false;
+   }
+ }).some( bool => {
+   return bool === true;
+ })
 
 module.exports = {
   hundredThousandairs : hundredThousandairs,
