@@ -32,9 +32,9 @@ app.post('/article', (req, res) => {
     })
 });
 
-app.get('/articles', (req, res) => {
-  res.render('articles/index')
-});
+// app.get('/articles', (req, res) => {
+//   res.render('articles/index')
+// });
 
 app.listen(8082, _ => {
   console.log('Server started.')
