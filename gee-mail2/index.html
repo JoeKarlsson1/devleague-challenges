@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script src="js/mail-generator.js"></script>
+		<link href="css/style.css" rel="stylesheet" media="screen">
+    <script>
+      window.onload = function(){
+        // ALL OF YOUR JAVASCRIPT CODE SHOULD GO HERE.
+        // We have to use window.onload so your JavaScript doesn't execute until the page has loaded and all HTML has been downloaded to your browser
+        console.log(window.geemails)
+        console.log(window.getNewMessage)
+
+        var container = document.getElementById("main");
+        var emailDiv = document.createElement('div');
+        emailDiv.innerHTML = window.geemails[0].body;
+        container.appendChild(emailDiv);
+
+        for(var i=0; i<window.geemails.length; i++) {
+          console.log(window.geemails[i])
+        }
+
+      };
+    </script>
+	</head>
+	<body>
+		<div class="container" id="main">
+			Build Me!
+		</div>
+	</body>
+</html>
