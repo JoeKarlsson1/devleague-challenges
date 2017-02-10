@@ -1,12 +1,14 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var blacklist = require('./config/blacklist');
+var blacklist = require('./config/blackList');
 var replaceWords = require('./middleware/replaceWords');
 var app = express();
 
 app.use(bodyParser.urlencoded({ extended : true }));
 
-app.post('/message', replaceWords(blacklist), function(req, res) {
+app.use(replaceWords(blacklist));
+
+app.post('/message', function(req, res) {
   res.json({ message : req.body.message });
 });
 

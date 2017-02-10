@@ -7,7 +7,7 @@ var visualizer = visualizationModule();
 var sortHelper = sortHelperModule();
 
 var quickModule = module.exports = ( function() {
-  //Privat Methods and variables
+  //Private Methods and variables
 
   //function for creating our partitions and swapping
   function partition ( arr, pivot, lo, hi ) {

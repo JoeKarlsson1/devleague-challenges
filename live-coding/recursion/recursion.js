@@ -1,9 +1,8 @@
-const factorial = ( num ) => {
-  //base case
-  if(num === 1){
-    return 1;
+const factorial = (num) => {
+  if (num === 1) {
+    return num;
   }
   return num * factorial(--num);
 }
 
-console.log(factorial(4)); //24
+console.log(factorial(5)) // 120

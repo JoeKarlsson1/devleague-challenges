@@ -1,5 +1,5 @@
 var blacklist = {
-  Selfie : 'self-portrait',
+  selfie : 'self-portrait',
   yummers : 'delicious',
   outchea : 'are out here',
   bruh : 'wow',

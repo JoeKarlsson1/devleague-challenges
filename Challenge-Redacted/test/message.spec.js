@@ -5,7 +5,7 @@ describe('message routes', function() {
   describe('POST /message', function() {
     it('should return a message with blacklist words replaced', function(done) {
       var body = {
-        message : 'I took a selfie with my bae next to a tardis. yolo!'
+        message : 'I took a Selfie with my bae next to a tardis. yolo!'
       };
 
       request(app)
