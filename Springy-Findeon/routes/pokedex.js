@@ -171,7 +171,7 @@ router.get('/:stat/between/:low/:high', ( req, res ) => client.search({
   })
   .then(getHitSource)
   .then(res.json.bind(res))
-  .catch(console.error)z
+  .catch(console.error)
 );
 
 module.exports = router;

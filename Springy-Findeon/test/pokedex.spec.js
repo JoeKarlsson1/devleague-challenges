@@ -342,9 +342,7 @@ describe('Pokedex API', () => {
       });
 
       it('should be an array', () => response.body.should.be.an.instanceof(Array) );
-
       it('should return 93 results', () => response.body.length.should.equal(93) );
-
       it('should only contain results of fire or ice type pokemon', () =>
         response.body.every(p => p.types.indexOf('fire') >= 0 || p.types.indexOf('ice') >= 0)
       );
@@ -363,9 +361,7 @@ describe('Pokedex API', () => {
       });
 
       it('should be an array', () => response.body.should.be.an.instanceof(Array) );
-
       it('should return 129 results', () => response.body.length.should.equal(129) );
-
       it('should only contain results of fire or ice or fairy type pokemon', () =>
         response.body.every(p =>
           p.types.indexOf('fire') >= 0 ||
@@ -390,9 +386,7 @@ describe('Pokedex API', () => {
       });
 
       it('should be an array', () => response.body.should.be.an.instanceof(Array) );
-
       it('should return 58 results', () => response.body.length.should.equal(58) );
-
       it('should only contain results of fire type pokemon', () =>
         response.body.every(p => p.types.indexOf('fire') >= 0)
       );
@@ -411,9 +405,7 @@ describe('Pokedex API', () => {
       });
 
       it('should be an array', () => response.body.should.be.an.instanceof(Array) );
-
       it('should return 3 results', () => response.body.length.should.equal(3) );
-
       it('should only contain results of water and grass type pokemon', () =>
         response.body.every(p => p.types.indexOf('fire') >= 0 && p.types.indexOf('ice') >= 0)
       );
@@ -432,9 +424,7 @@ describe('Pokedex API', () => {
       });
 
       it('should be an array', () => response.body.should.be.an.instanceof(Array) );
-
       it('should return 0 results', () => response.body.length.should.equal(0) );
-
     });
   });
 
@@ -469,7 +459,6 @@ describe('Pokedex API', () => {
         });
 
         it('should be an array', () => response.body.should.be.an.instanceof(Array) );
-
         it('should return 1 result, snorlax', () => response.body.should.deep.equal(results) );
       });
 
@@ -485,7 +474,6 @@ describe('Pokedex API', () => {
         });
 
         it('should be an array', () => response.body.should.be.an.instanceof(Array) );
-
         it('should return 1 result, snorlax', () => response.body.should.deep.equal(results) );
       });
 
@@ -501,7 +489,6 @@ describe('Pokedex API', () => {
         });
 
         it('should be an array', () => response.body.should.be.an.instanceof(Array) );
-
         it('should return 0 results', () => response.body.length.should.equal(0) );
       });
 

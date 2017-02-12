@@ -5,23 +5,23 @@ const {
   index,
   type
 } = require('../data/esClient');
-const ds = require('../data/pokedex');
+const ds = require('../data/pokedex_test.json');
 
 client.ping() // wait for connection
   .then(() => {
-    ds.map(i => ({
+    ds.map((e, i) => ({
       index,
       type,
-      id : parseInt(i.id),
-      body : Object.assign(i, {
-        id : parseInt(i.id),
-        totalStats : parseInt(i.totalStats),
-        HP : parseInt(i.HP),
-        attack : parseInt(i.attack),
-        defense : parseInt(i.defense),
-        spAtk : parseInt(i.spAtk),
-        spDef : parseInt(i.spDef),
-        speed : parseInt(i.speed)
+      id : parseInt(e.id),
+      body : Object.assign(e, {
+        id : parseInt(e.id),
+        totalStats : parseInt(e.totalStats),
+        HP : parseInt(e.HP),
+        attack : parseInt(e.attack),
+        defense : parseInt(e.defense),
+        spAtk : parseInt(e.spAtk),
+        spDef : parseInt(e.spDef),
+        speed : parseInt(e.speed)
       })
     }))
     .forEach(doc => client.create(doc)

@@ -7,8 +7,9 @@ const pgp = require('pg-promise')();
 const db = pgp({
   host: 'localhost',
   port: 5432,
-  database: 'has_many_blogs',
-  user: 'joecarlson'
+  database: 'articles_products_db',
+  user: 'joe',
+  password: 'postgres',
 });
 
 app.use(bodyParser.urlencoded({ extended : true }));
@@ -32,10 +33,6 @@ app.post('/article', (req, res) => {
     })
 });
 
-// app.get('/articles', (req, res) => {
-//   res.render('articles/index')
-// });
-
-app.listen(8082, _ => {
+app.listen(3000, _ => {
   console.log('Server started.')
 });

@@ -70,13 +70,13 @@ var sumOfInterests = dataset.bankBalances.filter((el, i, a) => {
   return [ 'WI', 'IL', 'WY', 'OH', 'GA', 'DE'].indexOf(el.state) >= 0;
 })
 .map((el, i, a) => {
-  return Math.round(parseFloat(el.amount) * 18.9) / 100;
+  return Math.round(parseFloat(el.amount) * 18.9) / 100; //interst rate
 })
 .reduce((p, c) => {
-  return p + c;
+  return p + c; // sum up interest rates
 }, 0)
 
-sumOfInterests = Math.round(sumOfInterests * 100) / 100;
+sumOfInterests = Math.round(sumOfInterests * 100) / 100; // rounded
 
 /*
   aggregate the sum of bankBalance amounts
@@ -86,22 +86,17 @@ sumOfInterests = Math.round(sumOfInterests * 100) / 100;
     and the value is the sum of all amounts from that state
       the value must be rounded to the nearest cent
  */
-var stateSums = dataset.bankBalances
-  .reduce(function (previousAccount, currentAccount) {
+const stateSums = dataset.bankBalances.reduce((accounts, currentAccount) => {
+  if ( !accounts.hasOwnProperty( currentAccount.state ) ) {
+    accounts[ currentAccount.state ] = 0;
+  }
+  accounts[ currentAccount.state ] += parseFloat(currentAccount.amount);
 
-    // if state key does not exist, create it, and set the first amount to 0
-    if( !previousAccount.hasOwnProperty(currentAccount.state) ){
-      previousAccount[ currentAccount.state ] = 0;
-    }
+  // Round to cents
+  accounts[ currentAccount.state ] =  Math.round(accounts[ currentAccount.state ] * 100) / 100; // rounded
 
-    // by this point, the key exists and is a Number
-    previousAccount[ currentAccount.state ] += parseFloat( currentAccount.amount );
-
-    // round down to cents
-    previousAccount[ currentAccount.state ] = Math.round( previousAccount[ currentAccount.state ] * 100 )/100;
-
-    return previousAccount;
-  },{});
+  return accounts;
+}, {});
 
 /*
   set sumOfHighInterests to the sum of the 18.9% interest
@@ -120,33 +115,24 @@ var stateSums = dataset.bankBalances
 
 var sumOfHighInterests = Object.keys(stateSums)
 
-  // only accounts in states that are not in the ones listed
-  .filter(function (state) {
-    return ['WI','IL','WY','OH','GA','DE'].indexOf( state ) === -1;
-  })
+// filter out the states that we don't care about
+.filter((state) => ['WI', 'IL', 'WY', 'OH', 'GA', 'DE'].indexOf( state ) === -1)
 
-  // convert amounts to only the interest
-  .map(function (stateKey) {
-    return {
-      state : stateKey,
-      interest : Math.round( stateSums[stateKey] * 0.189 * 100) / 100
-    };
-  })
+// convert amount to be the interest
+.map((state) => {
+  return {
+    state,
+    interest: Math.round( stateSums[ state ] * 18.9) / 100,
+  }
+})
 
-  // return array of objects
-  //  ex: [ {state:'HI', interest:1234}, ...]
+// use only interest amounts that are greater than 50,000
+.filter((account) =>  account.interest > 50000)
 
-  // only use interest amounts greater than 50,000
-  .filter(function ( account ) {
-    return account.interest > 50000;
-  })
+// add all the states interests together
+.reduce((prevInterest, currAccount) =>  prevInterest + currAccount.interest, 0)
 
-  // add all state interests, return rounded to cent
-  .reduce(function ( previousInterest, currentAccount ) {
-    return previousInterest + currentAccount.interest;
-  }, 0);
-
-sumOfHighInterests = Math.round( sumOfHighInterests * 100) / 100;
+sumOfHighInterests = Math.round( sumOfHighInterests * 100) / 100,
 
 /*
   set lowerSumStates to an array containing

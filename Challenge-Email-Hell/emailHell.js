@@ -1,5 +1,4 @@
 module.exports = function( log ) {
-  console.log('log: ', log);
   var module = {};
 
   module.getDupes = function() {
