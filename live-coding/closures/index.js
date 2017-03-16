@@ -1,24 +1,43 @@
-'use strict';
+var myObject = (function(){
+  // Private
+  var _name = "Jason";
+  var _age = 23;
 
-let money = 55.50;
-let coffeeCost = 8.50;
+  function getAge(){
+    return _age;
+  };
 
-const drinkCoffee = (function(){
-  let cupsDrunk = 0;
-
-  return function() {
-    if( money >= coffeeCost ){
-      money -= coffeeCost;
-      cupsDrunk++;
+  function setAge(newAge){
+    if(typeof newAge !== 'number') {
+      throw new Error('Wrong data type you dummy');
     }
-    return cupsDrunk;
+    _age = newAge;
+    return _age;
+  };
+
+  function sayAge() {
+    console.log(this.getAge())
+  }
+
+  function getName(){
+    return _name;
+  };
+
+  // Public
+  return {
+    getAge,
+    setAge,
+    sayAge,
+    getName,
   };
 })();
 
-let count;
-count = drinkCoffee(); // 1
-count = drinkCoffee(); // 2
-count = drinkCoffee(); // 3
+// We can access only exposed
+// properties/members of an object
+myObject.setAge(75); // 75
+myObject.sayAge(); // 75
 
-console.log('count:', count ); // 3
-console.log('money: ', money); //30
+//does not change internal name
+myObject.name = "Jon";
+
+myObject.getName(); // "Jason"

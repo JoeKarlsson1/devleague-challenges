@@ -6,7 +6,7 @@
  * @return {object} `calculator` object that can be used
  */
 var calculatorModule = (function() {
-  // private
+  // Private
   var _memory = 0;
   var _total = 0;
 
@@ -14,7 +14,7 @@ var calculatorModule = (function() {
     if ( typeof x !== 'number') {
       throw new Error('Not a number, plz try again');
     }
-  }
+  };
 
   /**
    * sets the `total` to the number passed in
@@ -22,10 +22,11 @@ var calculatorModule = (function() {
    * @return { Number }    current total
    */
   function load(x) {
+    debugger;
     isNum(x);
     _total = x;
     return _total;
-  }
+  };
 
   /**
    * Return the value of `total`
@@ -33,7 +34,7 @@ var calculatorModule = (function() {
    */
   function getTotal() {
     return _total;
-  }
+  };
 
   /**
    * Sums the value passed in with `total`
@@ -43,7 +44,7 @@ var calculatorModule = (function() {
     isNum(x);
     _total += x;
     return getTotal;
-  }
+  };
 
   /**
    * Subtracts the value passed in from `total`
@@ -53,7 +54,7 @@ var calculatorModule = (function() {
     isNum(x);
     _total -= x;
     return _total;
-  }
+  };
 
   /**
    * Multiplies the value by `total`
@@ -63,7 +64,7 @@ var calculatorModule = (function() {
     isNum(x);
     _total *= x;
     return _total;
-  }
+  };
 
   /**
    * Divides the value passing in by `total`
@@ -73,7 +74,7 @@ var calculatorModule = (function() {
     isNum(x);
     _total /= x;
     return _total;
-  }
+  };
 
   /**
    * Return the value stored at `memory`
@@ -81,7 +82,7 @@ var calculatorModule = (function() {
    */
   function recallMemory() {
     return _memory;
-  }
+  };
 
   /**
    * Stores the value of `total` to `memory`
@@ -89,7 +90,7 @@ var calculatorModule = (function() {
   function saveMemory() {
     _memory = _total;
     return _memory;
-  }
+  };
 
   /**
    * Clear the value stored at `memory`
@@ -97,21 +98,22 @@ var calculatorModule = (function() {
   function clearMemory() {
     _memory = 0;
     return _memory;
-  }
+  };
 
+  // Public
   return {
-    //public
-    load : load,
-    getTotal : getTotal,
-    add : add,
-    subtract : subtract,
-    multiply : multiply,
-    divide : divide,
-    recallMemory : recallMemory,
-    saveMemory : saveMemory,
-    clearMemory : clearMemory
+    load,
+    getTotal,
+    add,
+    subtract,
+    multiply,
+    divide,
+    recallMemory,
+    saveMemory,
+    clearMemory
   }
-})
+});
 
-var myCalc = calculatorModule();
-console.log(myCalc.load(66));
+  var myCalc = calculatorModule();
+myCalc.load(100);
+console.log(myCalc.getTotal());
