@@ -23,7 +23,7 @@ describe('Unpig Latin Pharase', () => {
   it('should be a function that exists', () => {
     expect(pigLatin.unpigPhrase).to.be.a('function');
   });
-  it('should pigify a phrase', () => {
+  it('should unpigify a phrase', () => {
     expect(pigLatin.unpigPhrase('eat-ay')).to.equal('eat');
     expect(pigLatin.unpigPhrase('anana-bay')).to.equal('banana');
     expect(pigLatin.unpigPhrase('anslate-Tray e-may into-ay ig-Pay atin-Lay ease!-play')).to.equal('Translate me into Pig Latin please!');

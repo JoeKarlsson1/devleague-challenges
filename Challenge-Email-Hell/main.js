@@ -1,6 +1,6 @@
-var emailArray = require( './emailLog.json' ).emails;
-var emailDupes = require( './emailHell.js' );
+const emailArray = require( './emailLog.json' ).emails;
+const emailDupes = require( './emailHell.js' );
 
-var result = emailDupes( emailArray ).getDupes();
+const result = emailDupes( emailArray ).getDupes();
 
 console.log( result );

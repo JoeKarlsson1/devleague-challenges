@@ -1,4 +1,4 @@
-var primeModule = require('../largestPrimeFactor.js');
+var primeModule = require('../largestPrimeFactor3.js');
 var chai = require('chai');
 var should = chai.should();
 

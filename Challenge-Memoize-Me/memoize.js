@@ -14,8 +14,10 @@ const select = (function() {
   */
   const memoize = (element) => {
     if (element in memory) {
+      console.log('Cache hit');
       return memory[element];
     }
+    console.log('Cache miss');
     memory[element] = document.querySelector(element);
     return memory[element];
   }
@@ -39,8 +41,9 @@ const select = (function() {
 })();
 
 //example use
-const myContainer = select.get('#mainContainer');
-const myContaine2r = select.get('#mainContainer2');
+let myContainer = select.get('#mainContainer'); //miss
+myContainer = select.get('#mainContainer'); //hit
+const myContaine2r = select.get('#mainContainer2'); //miss
 // returns object with #mainContainer ID
 console.log(select.show());
 // returns object with key '#mainContainer' and value of the dom object

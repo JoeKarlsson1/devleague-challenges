@@ -28,7 +28,7 @@ const pigPhrase = (phrase) => {
   let sentence = phrase.split(' ');
   let piggedPhrase = [];
 
-  for (let i = 0; i <= sentence.length - 1; i++) {
+  for (let i = 0; i < sentence.length; i++) {
     piggedPhrase.push(pigWord(sentence[i]));
   };
   return piggedPhrase.join(' ');
@@ -88,11 +88,14 @@ const findFirstVowel = (word) => {
 
   for (let i = 0; i < word.length; i++) {
     if (vowels.indexOf(word[i]) !== -1 ) {
+      console.log(i)
       return i;
     }
   }
   return word.length;
 };
+
+findFirstVowel('glove');
 
 module.exports = {
   pigPhrase,
