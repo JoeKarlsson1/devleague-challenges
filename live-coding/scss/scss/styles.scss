@@ -1,0 +1,53 @@
+// Importing partials
+@import "partials/reset";
+@import "partials/partials";
+
+// Variables
+$dark-color : blue;
+
+
+
+body {
+  background: darken($dark-color, 30%);
+}
+
+// Nesting
+.parent {
+  .child {
+    height: 100px;
+    background-color: red;
+    &:hover{
+      background-color: green;
+    }
+  }
+}
+
+// Mixins
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+.header {
+  @include border-radius(10px);
+}
+
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+  background-color: gold;
+  width: calc(100% * (1/3));
+  margin: 1 rem;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}
