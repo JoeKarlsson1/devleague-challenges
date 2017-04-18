@@ -175,9 +175,10 @@ describe('`Map` is a key/value map', function(){
 
   it('complex types can be keys', function() {
     const obj = {x: 1};
-    const otherObj = {x: 2};
+    const otherObj = {x: 1};
     let map = new Map();
     map.set(obj, '');
+    map.set(otherObj, '');
 
     assert.equal(map.has(otherObj), false);
   });

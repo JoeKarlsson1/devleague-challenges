@@ -13,14 +13,14 @@ module.exports.element = ( template, name, symbol, number, description ) => {
       .replace(/{{ elementSymbol }}/gi, symbol)
       .replace(/{{ elementAtomicNumber }}/gi, number)
       .replace(/{{ elementDescription }}/gi, description);
-}
+};
 
 module.exports.index = ( template, numOfElements, elements ) => {
 
   return template.toString()
         .replace( '{{ numberOfElements }}', numOfElements )
         .replace( '{{ elementLinks }}', this.elementListBuilder(elements) )
-}
+};
 
 module.exports.elementListBuilder = ( elements ) => {
   let linkBuilder = '';
@@ -31,4 +31,4 @@ module.exports.elementListBuilder = ( elements ) => {
     .replace( '{{ elementName }}', elements[i].replace('.html', '') );
   };
   return linkBuilder;
-}
+};

@@ -1,8 +1,12 @@
-const factorial = (num) => {
-  if (num === 1) {
-    return num;
+const recursify = (num) => {
+  if(num === 0) {
+    return;
   }
-  return num * factorial(--num);
+
+  console.log(num);
+  recursify((--num))
+  console.log(num);
+
 }
 
-console.log(factorial(5)) // 120
+recursify(3)

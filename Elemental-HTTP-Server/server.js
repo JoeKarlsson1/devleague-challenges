@@ -1,9 +1,8 @@
-'use strict'
-
 const http = require('http');
+const requestHandler = require('./requestHandlers/requestHandler');
 
 const PORT = 3000;
 
-const requestHandler = require('./requestHandlers/requestHandler')
-
-http.createServer(requestHandler).listen(PORT);
+http.createServer(requestHandler).listen(PORT, () => {
+  console.log(`Server started on ${PORT}`);
+});

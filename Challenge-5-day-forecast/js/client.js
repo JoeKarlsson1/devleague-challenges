@@ -1,16 +1,33 @@
-var key = 'a87c2d191085d4c4f3e005f1c8c50b69';
+const kelvinToFahrenheit = (valNum) => {
+   const valNum = parseFloat(valNum);
+  return ((valNum-273.15)*1.8)+32;
+};
 
-$.getJSON(
-  'http://api.openweathermap.org/data/2.5/weather?q=Honolulu&appid=' + key,
-  function load(data) {
-    console.log(data);
+const addWeatherToDOM = (data) => {
+  console.log(data)
+  let weather = data.weather[0];
+  for (let key in weather) {
+    const forecastData = document.createElement('p');
+    forecastData.innerHTML = weather[key];
+    forecast.appendChild(forecastData);
+  };
+};
 
-    var forecast = document.getElementById('forecast');
-    var weather = data.weather[0];
-    for (data in weather) {
-      var forecastData = document.createElement('p');
-      forecastData.innerHTML = data;
-      forecast.appendChild(forecastData);
-    };
-  }
-)
+const forecast = document.querySelector('#forecast');
+
+fetch(`http://api.openweathermap.org/data/2.5/weather?q=Honolulu&appid=${API_KEY}`)
+.then((resp) => resp.json())
+.then((json) => {
+  addWeatherToDOM(json);
+})
+.catch(err => console.log(err));
+
+// var xhr = new XMLHttpRequest();
+// xhr.open('GET', `http://api.openweathermap.org/data/2.5/weather?q=Honolulu&appid=${API_KEY}`);
+
+// xhr.onload = function () {
+//   // Request finished. Do processing here.
+//   console.log(this.responseText)
+// };
+
+// xhr.send();

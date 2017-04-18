@@ -1,65 +1,65 @@
-/* line 364, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 364, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.2/"; }
 
-/* line 368, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 368, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small {
   font-family: "/only screen/";
   width: 0; }
 
-/* line 373, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 373, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-small-only {
   font-family: "/only screen and (max-width: 40em)/";
   width: 0; }
 
-/* line 378, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 378, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium {
   font-family: "/only screen and (min-width:40.0625em)/";
   width: 40.0625em; }
 
-/* line 383, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 383, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-medium-only {
   font-family: "/only screen and (min-width:40.0625em) and (max-width:64em)/";
   width: 40.0625em; }
 
-/* line 388, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 388, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large {
   font-family: "/only screen and (min-width:64.0625em)/";
   width: 64.0625em; }
 
-/* line 393, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 393, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-large-only {
   font-family: "/only screen and (min-width:64.0625em) and (max-width:90em)/";
   width: 64.0625em; }
 
-/* line 398, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 398, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge {
   font-family: "/only screen and (min-width:90.0625em)/";
   width: 90.0625em; }
 
-/* line 403, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 403, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xlarge-only {
   font-family: "/only screen and (min-width:90.0625em) and (max-width:120em)/";
   width: 90.0625em; }
 
-/* line 408, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 408, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-mq-xxlarge {
   font-family: "/only screen and (min-width:120.0625em)/";
   width: 120.0625em; }
 
-/* line 413, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 413, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-data-attribute-namespace {
   font-family: false; }
 
-/* line 422, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 422, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 html, body {
   height: 100%; }
 
-/* line 425, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 425, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 html {
   box-sizing: border-box; }
 
-/* line 428, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 428, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 *,
 *:before,
 *:after {
@@ -67,12 +67,12 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
-/* line 434, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 434, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 html,
 body {
   font-size: 100%; }
 
-/* line 438, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 438, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 body {
   background: #fff;
   color: #222;
@@ -85,20 +85,20 @@ body {
   padding: 0;
   position: relative; }
 
-/* line 451, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 451, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 a:hover {
   cursor: pointer; }
 
-/* line 454, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 454, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 img {
   max-width: 100%;
   height: auto; }
 
-/* line 456, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 456, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 img {
   -ms-interpolation-mode: bicubic; }
 
-/* line 461, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 461, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 #map_canvas img,
 #map_canvas embed,
 #map_canvas object,
@@ -110,47 +110,47 @@ img {
 .mqa-display object {
   max-width: none !important; }
 
-/* line 468, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 468, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 .left {
   float: left !important; }
 
-/* line 469, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 469, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 .right {
   float: right !important; }
 
-/* line 172, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 172, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
 
-/* line 173, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 173, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 .clearfix:after {
   clear: both; }
 
-/* line 473, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 473, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 .hide {
   display: none; }
 
-/* line 478, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 478, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 .invisible {
   visibility: hidden; }
 
-/* line 484, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 484, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 487, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 487, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 img {
   display: inline-block;
   vertical-align: middle; }
 
-/* line 497, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 497, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 textarea {
   height: auto;
   min-height: 50px; }
 
-/* line 500, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 500, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 select {
   width: 100%; }
 
@@ -159,11 +159,11 @@ select {
   margin: 0 auto;
   max-width: 62.5rem;
   width: 100%; }
-  /* line 172, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+  /* line 172, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
   .row:before, .row:after {
     content: " ";
     display: table; }
-  /* line 173, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+  /* line 173, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
   .row:after {
     clear: both; }
   /* line 227, bower_components/foundation/scss/foundation/components/_grid.scss */
@@ -180,11 +180,11 @@ select {
     margin: 0 -0.9375rem;
     max-width: none;
     width: auto; }
-    /* line 172, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+    /* line 172, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
     .row .row:before, .row .row:after {
       content: " ";
       display: table; }
-    /* line 173, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+    /* line 173, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
     .row .row:after {
       clear: both; }
     /* line 234, bower_components/foundation/scss/foundation/components/_grid.scss */
@@ -192,11 +192,11 @@ select {
       margin: 0;
       max-width: none;
       width: auto; }
-      /* line 172, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+      /* line 172, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
       .row .row.collapse:before, .row .row.collapse:after {
         content: " ";
         display: table; }
-      /* line 173, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+      /* line 173, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
       .row .row.collapse:after {
         clear: both; }
 
@@ -1210,11 +1210,11 @@ select {
   display: block;
   padding: 0;
   margin: 0 -0.625rem; }
-  /* line 172, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+  /* line 172, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
   [class*="block-grid-"]:before, [class*="block-grid-"]:after {
     content: " ";
     display: table; }
-  /* line 173, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+  /* line 173, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
   [class*="block-grid-"]:after {
     clear: both; }
   /* line 51, bower_components/foundation/scss/foundation/components/_block-grid.scss */
@@ -1590,7 +1590,7 @@ select {
     .large-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
 
-/* line 213, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 213, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
 button, .button {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1612,99 +1612,99 @@ button, .button {
   border-color: #007095;
   color: #FFFFFF;
   transition: background-color 300ms ease-out; }
-  /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #007095; }
-  /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button:hover, button:focus, .button:hover, .button:focus {
     color: #FFFFFF; }
-  /* line 220, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 220, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
     border-color: #b9b9b9;
     color: #333333; }
-    /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       background-color: #b9b9b9; }
-    /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
       color: #333333; }
-  /* line 221, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 221, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.success, .button.success {
     background-color: #43AC6A;
     border-color: #368a55;
     color: #FFFFFF; }
-    /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
       background-color: #368a55; }
-    /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
       color: #FFFFFF; }
-  /* line 222, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 222, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.alert, .button.alert {
     background-color: #f04124;
     border-color: #cf2a0e;
     color: #FFFFFF; }
-    /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
       background-color: #cf2a0e; }
-    /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
       color: #FFFFFF; }
-  /* line 223, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 223, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.warning, .button.warning {
     background-color: #f08a24;
     border-color: #cf6e0e;
     color: #FFFFFF; }
-    /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.warning:hover, button.warning:focus, .button.warning:hover, .button.warning:focus {
       background-color: #cf6e0e; }
-    /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.warning:hover, button.warning:focus, .button.warning:hover, .button.warning:focus {
       color: #FFFFFF; }
-  /* line 224, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 224, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.info, .button.info {
     background-color: #a0d3e8;
     border-color: #61b6d9;
     color: #333333; }
-    /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
       background-color: #61b6d9; }
-    /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
       color: #FFFFFF; }
-  /* line 226, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 226, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.large, .button.large {
     padding: 1.125rem 2.25rem 1.1875rem 2.25rem;
     font-size: 1.25rem; }
-  /* line 227, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 227, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.small, .button.small {
     padding: 0.875rem 1.75rem 0.9375rem 1.75rem;
     font-size: 0.8125rem; }
-  /* line 228, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 228, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.tiny, .button.tiny {
     padding: 0.625rem 1.25rem 0.6875rem 1.25rem;
     font-size: 0.6875rem; }
-  /* line 229, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 229, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.expand, .button.expand {
     padding-left: 0;
     padding-right: 0;
     width: 100%; }
-  /* line 231, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 231, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.left-align, .button.left-align {
     text-align: left;
     text-indent: 0.75rem; }
-  /* line 232, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 232, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.right-align, .button.right-align {
     text-align: right;
     padding-right: 0.75rem; }
-  /* line 234, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 234, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.radius, .button.radius {
     border-radius: 3px; }
-  /* line 235, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 235, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.round, .button.round {
     border-radius: 1000px; }
-  /* line 237, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 237, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
     background-color: #008CBA;
     border-color: #007095;
@@ -1712,16 +1712,16 @@ button, .button {
     box-shadow: none;
     cursor: default;
     opacity: 0.7; }
-    /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       background-color: #007095; }
-    /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: #FFFFFF; }
-    /* line 175, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 175, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       background-color: #008CBA; }
-    /* line 238, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 238, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -1729,16 +1729,16 @@ button, .button {
       box-shadow: none;
       cursor: default;
       opacity: 0.7; }
-      /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         background-color: #b9b9b9; }
-      /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         color: #333333; }
-      /* line 175, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 175, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
         background-color: #e7e7e7; }
-    /* line 239, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 239, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
       background-color: #43AC6A;
       border-color: #368a55;
@@ -1746,16 +1746,16 @@ button, .button {
       box-shadow: none;
       cursor: default;
       opacity: 0.7; }
-      /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
         background-color: #368a55; }
-      /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
         color: #FFFFFF; }
-      /* line 175, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 175, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.success:hover, button.disabled.success:focus, button[disabled].success:hover, button[disabled].success:focus, .button.disabled.success:hover, .button.disabled.success:focus, .button[disabled].success:hover, .button[disabled].success:focus {
         background-color: #43AC6A; }
-    /* line 240, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 240, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled.alert, button[disabled].alert, .button.disabled.alert, .button[disabled].alert {
       background-color: #f04124;
       border-color: #cf2a0e;
@@ -1763,16 +1763,16 @@ button, .button {
       box-shadow: none;
       cursor: default;
       opacity: 0.7; }
-      /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         background-color: #cf2a0e; }
-      /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         color: #FFFFFF; }
-      /* line 175, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 175, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         background-color: #f04124; }
-    /* line 241, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 241, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled.warning, button[disabled].warning, .button.disabled.warning, .button[disabled].warning {
       background-color: #f08a24;
       border-color: #cf6e0e;
@@ -1780,16 +1780,16 @@ button, .button {
       box-shadow: none;
       cursor: default;
       opacity: 0.7; }
-      /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning:hover, .button[disabled].warning:focus {
         background-color: #cf6e0e; }
-      /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning:hover, .button[disabled].warning:focus {
         color: #FFFFFF; }
-      /* line 175, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 175, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.warning:hover, button.disabled.warning:focus, button[disabled].warning:hover, button[disabled].warning:focus, .button.disabled.warning:hover, .button.disabled.warning:focus, .button[disabled].warning:hover, .button[disabled].warning:focus {
         background-color: #f08a24; }
-    /* line 242, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+    /* line 242, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled.info, button[disabled].info, .button.disabled.info, .button[disabled].info {
       background-color: #a0d3e8;
       border-color: #61b6d9;
@@ -1797,23 +1797,23 @@ button, .button {
       box-shadow: none;
       cursor: default;
       opacity: 0.7; }
-      /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .button.disabled.info:focus, .button[disabled].info:hover, .button[disabled].info:focus {
         background-color: #61b6d9; }
-      /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .button.disabled.info:focus, .button[disabled].info:hover, .button[disabled].info:focus {
         color: #FFFFFF; }
-      /* line 175, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 175, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.info:hover, button.disabled.info:focus, button[disabled].info:hover, button[disabled].info:focus, .button.disabled.info:hover, .button.disabled.info:focus, .button[disabled].info:hover, .button[disabled].info:focus {
         background-color: #a0d3e8; }
 
-/* line 247, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+/* line 247, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
 button::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
 @media only screen and (min-width: 40.0625em) {
-  /* line 250, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+  /* line 250, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button, .button {
     display: inline-block; } }
 
@@ -1822,11 +1822,11 @@ button::-moz-focus-inner {
   list-style: none;
   margin: 0;
   left: 0; }
-  /* line 172, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+  /* line 172, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
   .button-group:before, .button-group:after {
     content: " ";
     display: table; }
-  /* line 173, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+  /* line 173, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
   .button-group:after {
     clear: both; }
   /* line 161, bower_components/foundation/scss/foundation/components/_button-groups.scss */
@@ -2343,12 +2343,12 @@ button::-moz-focus-inner {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem; } }
 
-/* line 172, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 172, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 .button-bar:before, .button-bar:after {
   content: " ";
   display: table; }
 
-/* line 173, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+/* line 173, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
 .button-bar:after {
   clear: both; }
 
@@ -2704,33 +2704,33 @@ button::-moz-focus-inner {
     border-color: #333333 transparent transparent transparent; }
 
 /* Standard Forms */
-/* line 387, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 387, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form {
   margin: 0 0 1rem; }
 
 /* Using forms within rows, we need to set some defaults */
-/* line 92, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 92, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .row {
   margin: 0 -0.5rem; }
-  /* line 94, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 94, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   form .row .row .column,
   form .row .row .columns {
     padding: 0 0.5rem; }
-  /* line 98, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 98, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   form .row .row.collapse {
     margin: 0; }
-    /* line 100, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+    /* line 100, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
     form .row .row.collapse .column,
     form .row .row.collapse .columns {
       padding: 0; }
-    /* line 102, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+    /* line 102, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
     form .row .row.collapse input {
       -webkit-border-bottom-right-radius: 0;
       -webkit-border-top-right-radius: 0;
       border-bottom-right-radius: 0;
       border-top-right-radius: 0; }
 
-/* line 108, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 108, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row input.column,
 form .row input.columns,
 form .row textarea.column,
@@ -2738,7 +2738,7 @@ form .row textarea.columns {
   padding-left: 0.5rem; }
 
 /* Label Styles */
-/* line 393, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 393, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 label {
   color: #4d4d4d;
   cursor: pointer;
@@ -2748,21 +2748,21 @@ label {
   line-height: 1.5;
   margin-bottom: 0;
   /* Styles for required inputs */ }
-  /* line 394, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 394, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   label.right {
     float: none !important;
     text-align: right; }
-  /* line 395, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 395, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   label.inline {
     margin: 0 0 1rem 0;
     padding: 0.5625rem 0; }
-  /* line 397, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 397, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   label small {
     text-transform: capitalize;
     color: #676767; }
 
 /* Attach elements to the beginning or end of an input */
-/* line 404, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 404, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .prefix,
 .postfix {
   border-style: solid;
@@ -2780,11 +2780,11 @@ label {
   z-index: 2; }
 
 /* Adjust padding, alignment and radius if pre/post element is a button */
-/* line 408, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 408, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .postfix.button {
   border-color: true; }
 
-/* line 409, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 409, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .prefix.button {
   border: none;
   padding-left: 0;
@@ -2793,7 +2793,7 @@ label {
   padding-top: 0;
   text-align: center; }
 
-/* line 411, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 411, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .prefix.button.radius {
   border-radius: 0;
   -webkit-border-bottom-left-radius: 3px;
@@ -2801,7 +2801,7 @@ label {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px; }
 
-/* line 412, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 412, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .postfix.button.radius {
   border-radius: 0;
   -webkit-border-bottom-right-radius: 3px;
@@ -2809,7 +2809,7 @@ label {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px; }
 
-/* line 413, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 413, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .prefix.button.round {
   border-radius: 0;
   -webkit-border-bottom-left-radius: 1000px;
@@ -2817,7 +2817,7 @@ label {
   border-bottom-left-radius: 1000px;
   border-top-left-radius: 1000px; }
 
-/* line 414, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 414, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .postfix.button.round {
   border-radius: 0;
   -webkit-border-bottom-right-radius: 1000px;
@@ -2826,21 +2826,21 @@ label {
   border-top-right-radius: 1000px; }
 
 /* Separate prefix and postfix styles when on span or label so buttons keep their own */
-/* line 417, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 417, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 span.prefix, label.prefix {
   background: #f2f2f2;
   border-right: none;
   color: #333333;
   border-color: #cccccc; }
 
-/* line 418, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 418, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 span.postfix, label.postfix {
   background: #f2f2f2;
   color: #333333;
   border-color: #cccccc; }
 
 /* We use this to get basic styling on all basic form elements */
-/* line 421, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 421, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -2866,16 +2866,16 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   -ms-transition: border-color 0.15s linear, background 0.15s linear;
   -o-transition: border-color 0.15s linear, background 0.15s linear;
   transition: border-color 0.15s linear, background 0.15s linear; }
-  /* line 138, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 138, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
     background: #fafafa;
     border-color: #999999;
     outline: none; }
-  /* line 144, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 144, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   input[type="text"]:disabled, input[type="password"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="month"]:disabled, input[type="week"]:disabled, input[type="email"]:disabled, input[type="number"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="color"]:disabled, textarea:disabled {
     background-color: #DDDDDD;
     cursor: default; }
-  /* line 150, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 150, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   input[type="text"][disabled], input[type="text"][readonly],
   fieldset[disabled] input[type="text"], input[type="password"][disabled], input[type="password"][readonly],
   fieldset[disabled] input[type="password"], input[type="date"][disabled], input[type="date"][readonly],
@@ -2894,11 +2894,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   fieldset[disabled] textarea {
     background-color: #DDDDDD;
     cursor: default; }
-  /* line 433, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 433, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   input[type="text"].radius, input[type="password"].radius, input[type="date"].radius, input[type="datetime"].radius, input[type="datetime-local"].radius, input[type="month"].radius, input[type="week"].radius, input[type="email"].radius, input[type="number"].radius, input[type="search"].radius, input[type="tel"].radius, input[type="time"].radius, input[type="url"].radius, input[type="color"].radius, textarea.radius {
     border-radius: 3px; }
 
-/* line 441, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 441, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .prefix-radius.row.collapse input,
 form .row .prefix-radius.row.collapse textarea,
 form .row .prefix-radius.row.collapse select,
@@ -2909,7 +2909,7 @@ form .row .prefix-radius.row.collapse button {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px; }
 
-/* line 445, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 445, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .prefix-radius.row.collapse .prefix {
   border-radius: 0;
   -webkit-border-bottom-left-radius: 3px;
@@ -2917,7 +2917,7 @@ form .row .prefix-radius.row.collapse .prefix {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px; }
 
-/* line 448, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 448, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .postfix-radius.row.collapse input,
 form .row .postfix-radius.row.collapse textarea,
 form .row .postfix-radius.row.collapse select,
@@ -2928,7 +2928,7 @@ form .row .postfix-radius.row.collapse button {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px; }
 
-/* line 452, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 452, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .postfix-radius.row.collapse .postfix {
   border-radius: 0;
   -webkit-border-bottom-right-radius: 3px;
@@ -2936,7 +2936,7 @@ form .row .postfix-radius.row.collapse .postfix {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px; }
 
-/* line 455, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 455, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .prefix-round.row.collapse input,
 form .row .prefix-round.row.collapse textarea,
 form .row .prefix-round.row.collapse select,
@@ -2947,7 +2947,7 @@ form .row .prefix-round.row.collapse button {
   border-bottom-right-radius: 1000px;
   border-top-right-radius: 1000px; }
 
-/* line 459, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 459, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .prefix-round.row.collapse .prefix {
   border-radius: 0;
   -webkit-border-bottom-left-radius: 1000px;
@@ -2955,7 +2955,7 @@ form .row .prefix-round.row.collapse .prefix {
   border-bottom-left-radius: 1000px;
   border-top-left-radius: 1000px; }
 
-/* line 462, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 462, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .postfix-round.row.collapse input,
 form .row .postfix-round.row.collapse textarea,
 form .row .postfix-round.row.collapse select,
@@ -2966,7 +2966,7 @@ form .row .postfix-round.row.collapse button {
   border-bottom-left-radius: 1000px;
   border-top-left-radius: 1000px; }
 
-/* line 466, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 466, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 form .row .postfix-round.row.collapse .postfix {
   border-radius: 0;
   -webkit-border-bottom-right-radius: 1000px;
@@ -2974,42 +2974,42 @@ form .row .postfix-round.row.collapse .postfix {
   border-bottom-right-radius: 1000px;
   border-top-right-radius: 1000px; }
 
-/* line 471, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 471, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="submit"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   border-radius: 0; }
 
 /* Respect enforced amount of rows for textarea */
-/* line 478, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 478, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 textarea[rows] {
   height: auto; }
 
 /* Not allow resize out of parent */
-/* line 483, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 483, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 textarea {
   max-width: 100%; }
 
-/* line 488, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 488, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 ::-webkit-input-placeholder {
   color: #cccccc; }
 
-/* line 492, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 492, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   color: #cccccc; }
 
-/* line 496, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 496, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #cccccc; }
 
-/* line 500, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 500, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 :-ms-input-placeholder {
   color: #cccccc; }
 
 /* Add height value for select elements to match text input height */
-/* line 506, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 506, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 select {
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
@@ -3028,33 +3028,33 @@ select {
   padding: 0.5rem;
   border-radius: 0;
   height: 2.3125rem; }
-  /* line 337, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 337, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   select::-ms-expand {
     display: none; }
-  /* line 360, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 360, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   select.radius {
     border-radius: 3px; }
-  /* line 361, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 361, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   select:hover {
     background-color: #f3f3f3;
     border-color: #999999; }
-  /* line 366, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 366, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   select:disabled {
     background-color: #DDDDDD;
     cursor: default; }
-  /* line 509, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 509, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   select[multiple] {
     height: auto; }
 
 /* Adjust margin for form elements below */
-/* line 515, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 515, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="file"],
 input[type="checkbox"],
 input[type="radio"],
 select {
   margin: 0 0 1rem 0; }
 
-/* line 522, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 522, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   display: inline-block;
@@ -3064,18 +3064,18 @@ input[type="radio"] + label {
   vertical-align: baseline; }
 
 /* Normalize file input width */
-/* line 532, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 532, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 input[type="file"] {
   width: 100%; }
 
 /* HTML5 Number spinners settings */
 /* We add basic fieldset styling */
-/* line 546, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 546, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 fieldset {
   border: 1px solid #DDDDDD;
   margin: 1.125rem 0;
   padding: 1.25rem; }
-  /* line 279, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+  /* line 279, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
   fieldset legend {
     background: #FFFFFF;
     font-weight: bold;
@@ -3084,7 +3084,7 @@ fieldset {
     padding: 0 0.1875rem; }
 
 /* Error Handling */
-/* line 553, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 553, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 [data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
   display: block;
   font-size: 0.75rem;
@@ -3096,11 +3096,11 @@ fieldset {
   background: #f04124;
   color: #FFFFFF; }
 
-/* line 556, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 556, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 [data-abide] span.error, [data-abide] small.error {
   display: none; }
 
-/* line 559, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 559, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 span.error, small.error {
   display: block;
   font-size: 0.75rem;
@@ -3112,23 +3112,23 @@ span.error, small.error {
   background: #f04124;
   color: #FFFFFF; }
 
-/* line 564, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 564, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .error input,
 .error textarea,
 .error select {
   margin-bottom: 0; }
 
-/* line 570, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 570, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .error input[type="checkbox"],
 .error input[type="radio"] {
   margin-bottom: 1rem; }
 
-/* line 575, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 575, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .error label,
 .error label.error {
   color: #f04124; }
 
-/* line 580, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 580, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .error small.error {
   display: block;
   font-size: 0.75rem;
@@ -3140,7 +3140,7 @@ span.error, small.error {
   background: #f04124;
   color: #FFFFFF; }
 
-/* line 585, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 585, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .error > label > small {
   background: transparent;
   color: #676767;
@@ -3151,17 +3151,17 @@ span.error, small.error {
   padding: 0;
   text-transform: capitalize; }
 
-/* line 597, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 597, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 .error span.error-message {
   display: block; }
 
-/* line 602, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 602, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 input.error,
 textarea.error,
 select.error {
   margin-bottom: 0; }
 
-/* line 607, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
+/* line 607, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_forms.scss */
 label.error {
   color: #f04124; }
 
@@ -3288,7 +3288,7 @@ meta.foundation-mq-topbar {
         line-height: 33px;
         padding: 0 2.5rem 0 0.9375rem;
         position: relative; }
-        /* line 129, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+        /* line 129, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
           display: block;
@@ -3299,7 +3299,7 @@ meta.foundation-mq-topbar {
           right: 0.9375rem;
           box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
           width: 16px; }
-        /* line 162, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+        /* line 162, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
           box-shadow: 0 0 0 1px "", 0 7px 0 1px "", 0 14px 0 1px ""; }
   /* line 268, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3367,10 +3367,10 @@ meta.foundation-mq-topbar {
         background-color: #008CBA;
         border-color: #007095;
         color: #FFFFFF; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           background-color: #007095; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           color: #FFFFFF; }
       /* line 352, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3378,10 +3378,10 @@ meta.foundation-mq-topbar {
         background-color: #e7e7e7;
         border-color: #b9b9b9;
         color: #333333; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
           background-color: #b9b9b9; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
           color: #333333; }
       /* line 353, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3389,10 +3389,10 @@ meta.foundation-mq-topbar {
         background-color: #43AC6A;
         border-color: #368a55;
         color: #FFFFFF; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
           background-color: #368a55; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
           color: #FFFFFF; }
       /* line 354, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3400,10 +3400,10 @@ meta.foundation-mq-topbar {
         background-color: #f04124;
         border-color: #cf2a0e;
         color: #FFFFFF; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
           background-color: #cf2a0e; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
           color: #FFFFFF; }
       /* line 355, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3411,10 +3411,10 @@ meta.foundation-mq-topbar {
         background-color: #f08a24;
         border-color: #cf6e0e;
         color: #FFFFFF; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.warning:hover, .top-bar-section ul li > a.button.warning:focus {
           background-color: #cf6e0e; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.warning:hover, .top-bar-section ul li > a.button.warning:focus {
           color: #FFFFFF; }
       /* line 356, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3422,10 +3422,10 @@ meta.foundation-mq-topbar {
         background-color: #a0d3e8;
         border-color: #61b6d9;
         color: #333333; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.info:hover, .top-bar-section ul li > a.button.info:focus {
           background-color: #61b6d9; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.info:hover, .top-bar-section ul li > a.button.info:focus {
           color: #FFFFFF; }
     /* line 359, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3436,10 +3436,10 @@ meta.foundation-mq-topbar {
       background-color: #008CBA;
       border-color: #007095;
       color: #FFFFFF; }
-      /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         background-color: #007095; }
-      /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+      /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         color: #FFFFFF; }
       /* line 365, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3447,10 +3447,10 @@ meta.foundation-mq-topbar {
         background-color: #e7e7e7;
         border-color: #b9b9b9;
         color: #333333; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
           background-color: #b9b9b9; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
           color: #333333; }
       /* line 366, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3458,10 +3458,10 @@ meta.foundation-mq-topbar {
         background-color: #43AC6A;
         border-color: #368a55;
         color: #FFFFFF; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
           background-color: #368a55; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.success:hover, .top-bar-section ul li > button.success:focus {
           color: #FFFFFF; }
       /* line 367, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3469,10 +3469,10 @@ meta.foundation-mq-topbar {
         background-color: #f04124;
         border-color: #cf2a0e;
         color: #FFFFFF; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
           background-color: #cf2a0e; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
           color: #FFFFFF; }
       /* line 368, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3480,10 +3480,10 @@ meta.foundation-mq-topbar {
         background-color: #f08a24;
         border-color: #cf6e0e;
         color: #FFFFFF; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.warning:hover, .top-bar-section ul li > button.warning:focus {
           background-color: #cf6e0e; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.warning:hover, .top-bar-section ul li > button.warning:focus {
           color: #FFFFFF; }
       /* line 369, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3491,10 +3491,10 @@ meta.foundation-mq-topbar {
         background-color: #a0d3e8;
         border-color: #61b6d9;
         color: #333333; }
-        /* line 158, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 158, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.info:hover, .top-bar-section ul li > button.info:focus {
           background-color: #61b6d9; }
-        /* line 164, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
+        /* line 164, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.info:hover, .top-bar-section ul li > button.info:focus {
           color: #FFFFFF; }
     /* line 373, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3607,11 +3607,11 @@ meta.foundation-mq-topbar {
   .top-bar {
     background: #333333;
     overflow: visible; }
-    /* line 172, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+    /* line 172, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
     .top-bar:before, .top-bar:after {
       content: " ";
       display: table; }
-    /* line 173, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
+    /* line 173, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/bower_components/foundation/scss/foundation/components/_global.scss */
     .top-bar:after {
       clear: both; }
     /* line 497, bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3819,6 +3819,6 @@ meta.foundation-mq-topbar {
     display: block;
     position: absolute !important; } }
 
-/* line 13, /home/joe/Documents/devleague-challenges/rebirth-of-reddit/sass/styles.scss */
+/* line 13, /home/joe/Documents/dev/devleague-challenges/rebirth-of-reddit/sass/styles.scss */
 body {
   background: purple; }

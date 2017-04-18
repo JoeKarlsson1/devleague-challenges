@@ -66,17 +66,24 @@ sumOfBankBalances = Math.floor( sumOfBankBalances * 100 ) / 100;
     Delaware
   the result should be rounded to the nearest cent
  */
-var sumOfInterests = dataset.bankBalances.filter((el, i, a) => {
-  return [ 'WI', 'IL', 'WY', 'OH', 'GA', 'DE'].indexOf(el.state) >= 0;
+var sumOfInterests = dataset.bankBalances.filter((account) => {
+  // If the current state is in our state array, it will return a num greater than zero
+  return (['WI', "IL", "WY", "OH", "GA", "DE"].indexOf(account.state) >= 0)
 })
-.map((el, i, a) => {
-  return Math.round(parseFloat(el.amount) * 18.9) / 100; //interst rate
+// Calc the interest for each state
+.map((account) => {
+  return {
+    interest:  Math.round( account.amount * 18.9) / 100
+  }
 })
-.reduce((p, c) => {
-  return p + c; // sum up interest rates
-}, 0)
+// Sum up the interest for each state
+.reduce((prev, currAccount)=> {
+  return prev + currAccount.interest;
+}, 0);
 
-sumOfInterests = Math.round(sumOfInterests * 100) / 100; // rounded
+// Round the result to the nearest hundreths of a cent
+sumOfInterests = Math.round(sumOfInterests * 100) / 100;
+
 
 /*
   aggregate the sum of bankBalance amounts
@@ -86,17 +93,20 @@ sumOfInterests = Math.round(sumOfInterests * 100) / 100; // rounded
     and the value is the sum of all amounts from that state
       the value must be rounded to the nearest cent
  */
-const stateSums = dataset.bankBalances.reduce((accounts, currentAccount) => {
-  if ( !accounts.hasOwnProperty( currentAccount.state ) ) {
-    accounts[ currentAccount.state ] = 0;
+var stateSums = dataset.bankBalances.reduce((prev, currAccount) => {
+  // Check if state is already in new Obj
+  if ( !prev.hasOwnProperty(currAccount.state) ) {
+    prev[currAccount.state] = 0;
   }
-  accounts[ currentAccount.state ] += parseFloat(currentAccount.amount);
 
-  // Round to cents
-  accounts[ currentAccount.state ] =  Math.round(accounts[ currentAccount.state ] * 100) / 100; // rounded
+  // Adding state amount to accumulating state amuont in new obj
+  prev[currAccount.state] += parseFloat(currAccount.amount);
 
-  return accounts;
+  // rounding the state amount
+  prev[currAccount.state] = Math.round(prev[currAccount.state] * 100) / 100;
+  return prev;
 }, {});
+
 
 /*
   set sumOfHighInterests to the sum of the 18.9% interest
@@ -111,28 +121,44 @@ const stateSums = dataset.bankBalances.reduce((accounts, currentAccount) => {
     Georgia
     Delaware
   the result should be rounded to the nearest cent
-  */
+*/
 
 var sumOfHighInterests = Object.keys(stateSums)
 
-// filter out the states that we don't care about
-.filter((state) => ['WI', 'IL', 'WY', 'OH', 'GA', 'DE'].indexOf( state ) === -1)
+  // filter out the states we don't care about
+  .filter((stateKey) => {
+    // If the current state is in our state array, it will return a num greater than zero
+    return (['WI', "IL", "WY", "OH", "GA", "DE"].indexOf(stateKey) === -1);
+  })
 
-// convert amount to be the interest
-.map((state) => {
-  return {
-    state,
-    interest: Math.round( stateSums[ state ] * 18.9) / 100,
-  }
-})
+  // make a NEW array with state and combined amounts
+  .map((stateKey) => {
+    return {
+      state: stateKey,
+      combinedAmount: stateSums[stateKey],
+    }
+  })
 
-// use only interest amounts that are greater than 50,000
-.filter((account) =>  account.interest > 50000)
+  // Map to get the interest rates for each state
+  .map((account) => {
+    return {
+      interest: Math.round(account.combinedAmount * 18.9) / 100
+    }
+  })
 
-// add all the states interests together
-.reduce((prevInterest, currAccount) =>  prevInterest + currAccount.interest, 0)
+  // filter out all the states whose combined interest is greater than 50,000k
+  .filter((account) => {
+    return account.interest > 50000;
+  })
 
-sumOfHighInterests = Math.round( sumOfHighInterests * 100) / 100,
+  // Reduce to find the sum
+  .reduce((prev, curr) => {
+    return prev + curr.interest;
+  }, 0)
+
+  // Round the result
+sumOfHighInterests = Math.round(sumOfHighInterests * 100) / 100;
+
 
 /*
   set lowerSumStates to an array containing
@@ -159,18 +185,18 @@ sumOfHighInterests = Math.round( sumOfHighInterests * 100) / 100,
    return prev
  }, 0);
 
- /*
-   set areStatesInHigherStateSum to be true if
-     all of these states have a sum of account values
-       greater than 2,550,000
-     Wisconsin
-     Illinois
-     Wyoming
-     Ohio
-     Georgia
-     Delaware
-   false otherwise
-  */
+
+   // set areStatesInHigherStateSum to be true if
+   //   all of these states have a sum of account values
+   //     greater than 2,550,000
+   //   Wisconsin
+   //   Illinois
+   //   Wyoming
+   //   Ohio
+   //   Georgia
+   //   Delaware
+   // false otherwise
+
  var areStatesInHigherStateSum = Object.keys(stateSums).filter( state => {
    return stateSums[state] > 2550000;
  }).map( state => {

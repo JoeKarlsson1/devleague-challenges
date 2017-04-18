@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 // ask NET module for new Server
-const server = net.createServer(function (socketReq) {
+const server = net.createServer((socketReq) => {
   // socket handling logic
   connection(socketReq);
 });
