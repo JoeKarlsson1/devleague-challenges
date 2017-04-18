@@ -1,0 +1,113 @@
+// Imports
+@import "partials/reset";
+@import "partials/clearfix";
+@import "partials/general_styles";
+
+// 1. Many small items in a grid
+.small-grid-flexbox ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  @include respond-to('medium') {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+  }
+  li {
+    box-sizing: border-box;
+    line-height: 28px;
+    text-align: center;
+    flex: 0 0 10%;
+    @include respond-to('medium') {
+      box-sizing: border-box;
+      line-height: 38px;
+      text-align: center;
+      flex: 0 0 10%;
+    }
+  }
+}
+
+// 2. 2-Column Grid
+.two-col-grid-flexbox {
+  background-color: purple;
+  @include respond-to('medium') {
+    background-color: orange;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    .column-1 {
+      flex: 1 1 50%;
+    }
+    .column-2 {
+      flex: 1 1 50%;
+      margin: auto;
+    }
+  }
+}
+
+// 3. Centering
+.centering-formula-1 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  .centered {
+    flex: 1 0 auto;
+  }
+}
+.centering-formula-2 {
+  display: flex;
+  flex-flow: row nowrap;
+  .centered {
+    flex: 1 0 auto;
+    margin: auto;
+  }
+}
+
+// 4. Ordering
+.ordering-block {
+  display: flex;
+  flex-flow: column;
+  .item-c {
+    order: 1;
+  }
+  .item-b {
+    order: 2;
+  }
+  .item-a {
+    order: 3;
+  }
+  .item-d {
+    order: 4;
+  }
+  @include respond-to('medium') {
+    .item-c {
+      order: 3;
+    }
+    .item-b {
+      order: 2;
+    }
+    .item-a {
+      order: 1;
+    }
+    .item-d {
+      order: 4;
+    }
+  }
+  @include respond-to('large') {
+    .item-c {
+      order: 2;
+    }
+    .item-b {
+      order: 3;
+    }
+    .item-a {
+      order: 4;
+    }
+    .item-d {
+      order: 1;
+    }
+  }
+}

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fun with Flexbox &amp; SCSS</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <div class="block-container">
+    <div class="block">
+      <h1>1. Many small items in a grid</h1>
+    </div>
+    <div class="block small-grid small-grid-inline-block-hack">
+      <h2>Inline Block Hack</h2>
+      <ul>
+        <li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li><!--
+        --><li>:(</li>
+      </ul>
+    </div>
+    <div class="block small-grid small-grid-flexbox">
+      <h2>Small Grid with Flexbox</h2>
+      <ul>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+        <li>:)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="block-container">
+    <div class="block">
+      <h1>2. Two-Column Grid</h1>
+    </div>
+    <div class="block two-col-grid two-col-grid-floats clearfix">
+      <div class="column-1">
+        <h2>Float Green</h2>
+      </div>
+      <div class="column-2">
+        <h2>Float Red Red Red Red Red Red Red Red Red Red Red Red Red Red Red </h2>
+      </div>
+    </div>
+    <div class="block two-col-grid two-col-grid-flexbox">
+      <div class="column-1">
+        <h2>Flex Green</h2>
+      </div>
+      <div class="column-2">
+        <h2>Flex Red Red Red Red Red Red Red Red Red Red Red Red Red Red Red </h2>
+      </div>
+    </div>
+  </div>
+  <div class="block-container">
+    <div class="block">
+      <h1>3. Centering Formulas</h1>
+    </div>
+    <div class="block centering-formula centering-formula-1">
+      <div class="centered">
+        <h2>Hi I'm Formula 1</h2>
+      </div>
+    </div>
+    <div class="block centering-formula centering-formula-2">
+      <div class="centered">
+        <h2>Hi I'm Formula 2</h2>
+      </div>
+    </div>
+  </div>
+  <div class="block-container">
+    <div class="block">
+      <h1>4. Order</h1>
+      <p class="small">Show CBAD at small. All Children full-width on separate rows.</p>
+      <p class="medium">Show ABCD at medium. All Children different widths &amp; on 1 row.</p>
+      <p class="large">Show DCBA at large. All Children different widths with space between them.</p>
+    </div>
+    <div class="block ordering-block">
+      <div class="item item-a">A</div>
+      <div class="item item-b">B</div>
+      <div class="item item-c">C</div>
+      <div class="item item-d">D</div>
+    </div>
+  </div>
+  <div class="block-container">
+    <div class="block">
+      <h1>5. Extra</h1>
+      <p class="small medium large">Make some columns fixed-width and some variable width at different media queries. Or, see if you can do something neat with flex-flow: column wrap; or flex-flow: column nowrap;</p>
+    </div>
+    <div class="block extra-block">
+      <div class="item item-a">A</div>
+      <div class="item item-b">B</div>
+      <div class="item item-c">C</div>
+      <div class="item item-d">D</div>
+    </div>
+  </div>
+</body>
+</html>
