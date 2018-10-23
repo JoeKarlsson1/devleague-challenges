@@ -8,15 +8,19 @@
   },
   "dependencies": {
     "chai": "^1.9.1",
-    "gulp": "^3.8.8",
-    "gulp-mocha": "^1.1.0",
+    "gulp": "^4.0.0",
+    "gulp-mocha": "^3.0.0",
     "gulp-util": "^3.0.1",
-    "gulp-watch": "^1.0.3"
+    "gulp-watch": "^4.0.0",
+    "snyk": "^1.104.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "rayrfarias@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
