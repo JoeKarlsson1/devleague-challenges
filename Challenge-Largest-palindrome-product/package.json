@@ -21,6 +21,6 @@
   "homepage": "https://github.com/devleague/Challenge-Largest-palindrome-product",
   "dependencies": {
     "chai": "^2.3.0",
-    "mocha": "^2.2.5"
+    "mocha": "^3.0.0"
   }
 }
