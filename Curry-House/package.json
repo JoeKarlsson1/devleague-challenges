@@ -18,6 +18,6 @@
   "homepage": "https://github.com/devleague/Curry-House#readme",
   "dependencies": {
     "chai": "^3.0.0",
-    "mocha": "^2.2.5"
+    "mocha": "^3.0.0"
   }
 }
