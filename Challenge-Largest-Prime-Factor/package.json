@@ -21,6 +21,6 @@
   "homepage": "https://github.com/devleague/Challenge-Even-Fibonacci-Numbers",
   "dependencies": {
     "chai": "^2.3.0",
-    "mocha": "^2.2.4"
+    "mocha": "^3.0.0"
   }
 }
