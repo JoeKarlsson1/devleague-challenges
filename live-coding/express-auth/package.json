@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,8 @@
     "express-session": "^1.13.0",
     "jade": "^1.11.0",
     "passport": "^0.3.2",
-    "passport-local": "^1.0.0"
-  }
+    "passport-local": "^1.0.0",
+    "snyk": "^1.165.1"
+  },
+  "snyk": true
 }
