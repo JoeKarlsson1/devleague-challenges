@@ -14,7 +14,7 @@
     "body-parser": "^1.15.2",
     "cors": "^2.7.1",
     "express": "^4.14.0",
-    "mongoose": "^4.5.8",
+    "mongoose": "^5.3.9",
     "sendgrid": "^4.0.1"
   },
   "devDependencies": {
