@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "npm": "3.3.6",
@@ -34,7 +36,8 @@
     "passport-local": "^1.0.0",
     "pg": "^4.4.3",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^3.13.0"
+    "sequelize": "^3.13.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "browser-sync": "^2.12.5",
@@ -42,5 +45,6 @@
     "gulp-connect": "^2.2.0",
     "gulp-nodemon": "^2.0.4",
     "gulp-sass": "^2.0.4"
-  }
+  },
+  "snyk": true
 }
