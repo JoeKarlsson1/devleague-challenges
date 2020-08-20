@@ -21,7 +21,7 @@
   "dependencies": {
     "angular-moment": "^0.10.3",
     "angular-xeditable": "0.0.1",
-    "bcrypt": "^0.8.5",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
