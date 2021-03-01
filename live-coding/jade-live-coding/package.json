@@ -12,7 +12,7 @@
   "dependencies": {
     "express": "^4.13.4",
     "jade": "^1.11.0",
-    "pug": "^2.0.0-alpha3"
+    "pug": "^3.0.1"
   },
   "devDependencies": {},
   "description": ""
