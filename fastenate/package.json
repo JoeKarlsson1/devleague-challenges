@@ -25,6 +25,6 @@
     "gulp-express": "^0.1.13"
   },
   "dependencies": {
-    "gulp-sass": "^2.0.4"
+    "gulp-sass": "^5.0.0"
   }
 }
